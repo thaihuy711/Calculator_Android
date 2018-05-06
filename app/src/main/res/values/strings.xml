@@ -19,4 +19,6 @@
     <string name="chia">÷</string>
     <string name="phay">.</string>
     <string name="bang">=</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_save">Save Last Result</string>
 </resources>
