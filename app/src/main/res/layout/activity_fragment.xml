@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSilver"
+    android:gravity="bottom"
+    android:stretchColumns="*">
+    <android.support.v7.widget.Toolbar
+        app:collapseIcon="@color/colorWhite"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtKetqua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_span="4"
+            android:maxLines="1"
+            android:background="@color/colorSilver"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="10dp"
+            android:paddingRight="@dimen/size10dp"
+            android:paddingTop="40dp"
+            android:phoneNumber="true"
+            android:text="@string/khong"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size60dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btnAc"
+            android:fontFamily="sans-serif"
+            android:text="@string/ac"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btnDoi"
+            android:fontFamily="sans-serif"
+            android:text="@string/doi"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btnPhantram"
+            android:fontFamily="sans-serif"
+            android:text="@string/phantram"
+            />
+
+        <Button
+            style="@style/CustomButtonOperator"
+            android:id="@+id/btnChia"
+            android:fontFamily="sans-serif"
+            android:text="@string/chia"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn7"
+            android:fontFamily="sans-serif"
+            android:text="@string/bay"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn8"
+            android:fontFamily="sans-serif"
+            android:text="@string/tam"
+            />
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn9"
+            android:fontFamily="sans-serif"
+            android:text="@string/chin"
+            />
+
+        <Button
+            style="@style/CustomButtonOperator"
+            android:id="@+id/btnNhan"
+            android:fontFamily="sans-serif"
+            android:text="@string/nhan"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn4"
+            android:fontFamily="sans-serif"
+            android:text="@string/bon"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn5"
+            android:fontFamily="sans-serif"
+            android:text="@string/nam"
+            />
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn6"
+            android:fontFamily="sans-serif"
+            android:text="@string/sau"
+            />
+
+        <Button
+            style="@style/CustomButtonOperator"
+            android:id="@+id/btnTru"
+            android:fontFamily="sans-serif"
+            android:text="@string/tru"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn1"
+            android:fontFamily="sans-serif"
+            android:text="@string/mot"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn2"
+            android:fontFamily="sans-serif"
+            android:text="@string/hai"
+            />
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn3"
+            android:fontFamily="sans-serif"
+            android:text="@string/ba"
+            />
+
+        <Button
+            style="@style/CustomButtonOperator"
+            android:id="@+id/btnCong"
+            android:fontFamily="sans-serif"
+            android:text="@string/cong"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btn0"
+            android:layout_span="2"
+            android:fontFamily="sans-serif"
+            android:text="@string/khong"
+            />
+
+        <Button
+            style="@style/CustomButtonNumber"
+            android:id="@+id/btnPhay"
+            android:fontFamily="sans-serif"
+            android:text="@string/phay"
+          />
+        <Button
+            style="@style/CustomButtonOperator"
+            android:id="@+id/btnBang"
+            android:fontFamily="sans-serif"
+            android:text="@string/bang"
+            />
+    </TableRow>
+</TableLayout>
